@@ -227,7 +227,6 @@ FROM posts;
 --null값은 in조건절에서 자동으로 제외
 --서브쿼리 : select문 안에 또다른 select문을 서브 쿼리함
 
-
 SELECT DISTINCT author_id 
 FROM post 
 WHERE author_id IS NOT NULL;
@@ -321,3 +320,10 @@ SELECT AVG(age) FROM author;
 
 
 select * from posts;
+
+
+회원가입을 담당하였다.
+main check out 및 pull
+3.feat/member 브랜치 생성
+4.commit id2개 정도 임의 생성
+origin에서 생성
